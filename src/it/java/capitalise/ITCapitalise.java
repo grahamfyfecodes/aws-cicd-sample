@@ -21,7 +21,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 @AutoConfigureMockMvc
 @ContextConfiguration(classes = AwsCicdSampleApplication.class)
-public class SpringContextIntegrationTest {
+public class ITCapitalise {
 
     @Autowired
     private MockMvc mockMvc;
